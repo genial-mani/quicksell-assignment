@@ -21,7 +21,7 @@ function App() {
   // Fetching tickets and users data
   useEffect(() => {
     const fetchDetails = async () => {
-      const url = 'https://api.quicksell.co/v1/internal/frontend-assignment';
+      const url = process.env.REACT_APP_API_URL;
       try {
         const response = await fetch(url);
         if (!response.ok) {
