@@ -1,0 +1,37 @@
+.column-div{
+    width: 240px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.dots{
+    width: 20px;
+    height: 20px;
+}
+
+.add,.menu{
+    cursor: pointer;
+}
+
+.head-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

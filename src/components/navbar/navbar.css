@@ -1,0 +1,99 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: 55px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .filter-div {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgba(196, 196, 196, 1);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .filter{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .filter-svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+  }
+  
+  .filter-options {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 45px;
+    box-shadow: 0px 0px 5px 2px rgba(196, 196, 196, 1);
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: auto;
+  }
+  
+  .cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  .cat-select {
+    width: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgba(196, 196, 196, 1);
+    cursor: pointer;
+  }
+  
+  .dropdown1,.dropdown2 {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgba(196, 196, 196, 1);
+    z-index: 100;
+    width: 150px;
+  }
+  .dropdown2{
+    top: 100px;
+    z-index: 99;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropdown-item:hover,
+  .dropdown-item.selected {
+    background-color: #f0f0f0;
+  }
+  
